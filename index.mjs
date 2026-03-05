@@ -1,4 +1,4 @@
-import createServer from '@tomphttp/bare-server-node';
+import { createBareServer as createServer } from '@tomphttp/bare-server-node';
 import http from 'http';
 import nodeStatic from 'node-static';
 
